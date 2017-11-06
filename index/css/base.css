@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0;}
+ul,li,p,img,h1,h2,h3,h4,h5,h6,label{display:block;}
+ul{list-style:none;}
+img{border:0;}
+.clearfix:after{display:block;height:0;content:".";clear:both;visibility:hidden;}
+.ellipsis{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+a{text-decoration:none;outline:none;}
+body{background:#fff; font-family:"微软雅黑";width:100%;position:relative;}

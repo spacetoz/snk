@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+.wrap{width:100%; background:#f6f6f6; height:811px;}
+.wrap .top{width:997px; margin:0 auto; padding-top:80px;}
+.wrap .top h2{font-size:26px; color:#000000; text-align:center; margin-bottom:24px;}
+.wrap .top p{font-size:18px; color:#666666;text-align:center; margin-bottom:95px;}
+.wrap .top ul{height:420px; margin-bottom:150px; }
+.wrap .top ul li{float:left;position:relative; margin-right:15px; margin-bottom:20px;}
+.wrap .top ul li:nth-child(3),.wrap .top ul li:nth-child(6){margin-right:0;}
+.wrap .top ul li:nth-child(4),.wrap .top ul li:nth-child(5),.wrap .top ul li:nth-child(6){margin-bottom:0;}
+.wrap .top ul li a{position:absolute; left:0; top:160px; height:40px; font-size:16px; color:#ffffff; background:rgba(28,24,26,0.5); width:319px;line-height:40px;} 
+.wrap .top ul li a span{background: rgba(188,3,9,0.8);width:40px; height:40px; float:left; text-align:center; }
+.wrap .top ul li:hover img{opacity:0.3;}
+.wrap .top ul li:hover a{height:60px;top:140px;}
+.wrap .top ul li:hover a span{height:60px;;}
+.bottom{width:997px; margin:0 auto;}
+.bottom h3{font-size:22px; color:#666666; text-align:center; margin-top:40px; margin-bottom:44px;}

@@ -1,0 +1,12 @@
+.warp_main{width:100%; background: #F6F6F6;}
+.main {width: 1200px;margin:0 auto;padding-top: 92px;}
+.main .top{padding-bottom: 20px;border-bottom: 1px solid #dddddd;margin-bottom: 21px;}
+.main h2{height: 40px;line-height: 40px;font-size: 24px;color:#e90000;text-align:center;}
+.main p{font-size:12px; color: #666666;line-height:26px;}
+.main .top p{height: 26px;text-align: center;}
+.main .mid p{margin-bottom: 24px;}
+.main .mid p span{font-weight: bold;}
+.main .bottom{padding-bottom:116px;}
+.main .bottom img{margin: 0 auto;}
+.main .bottom p{text-align: center;line-height: 42px;margin-bottom: 16px;}
+.main .bottom p:nth-child(4){text-indent: 20px;}

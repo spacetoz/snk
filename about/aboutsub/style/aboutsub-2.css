@@ -1,0 +1,4 @@
+.main p{text-indent: 20px;}
+.main .bottom img{width: 576px;margin: 0 auto 37px auto;}
+.main .bottom{padding-bottom:115px;}
+.main .bottom p:nth-child(2){margin-bottom: 20px;}

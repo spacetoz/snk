@@ -1,0 +1,181 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>公司荣誉</title>
+<script type="text/javascript" src="style/jquery.js"></script>
+<script type="text/javascript" src="style/superslide.2.1.js"></script>
+<link href="style/focus.css" rel="stylesheet" type="text/css"/>
+<link href="../index/css/base.css" rel="stylesheet" type="text/css"/>
+<link href="style/about-1.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<div class="wrap_topnav_box">
+        <div class="wrap_topnav">
+            <div class="topnav">	
+                <ul class="clearfix">
+                    <li><a href="../index.html">首页</a>|</li>
+                    <li><a href="../service/index.html">客户服务</a>|</li>
+                    <li><a href="../case/index.html">案例分享</a>|</li>
+                    <li><a href="index.html">关于我们</a>|</li>
+                    <li><a href="../call/index.html">联系我们</a>|</li>
+                    <li><a href="#" id="a_1">中文</a><a href="#" id="a_2">EN</a></li>
+                </ul> 
+            </div>
+            <div class="subnav">
+                    <p>
+                        <a href="index.html" id="a_red">公司简介</a>
+                        <a href="index-1.html" id="a_red2">公司荣誉</a>
+                        <a href="index-2.html" id="a_red3">公司动态</a>
+                        <a href="../call/join.html" id="a_red4">加入我们</a>
+                    </p>
+                </div>
+        </div>
+    </div>
+    <div class="banner"></div>
+	<a name="top></a>"
+<!--轮播开始 start-->
+<div class="fullSlide">
+	<div class="bd">
+		<ul>
+			<li _src="url(images/1.jpg)" style="background:#f6f6f6 150px 102px no-repeat;">
+            	<div class="min_bd">
+                    <h2>百度五星级搜索引擎营销服务商资格</h2>
+                    <p>
+                        百度认证时目前中国互联网营销领域最具公信力的认<br/>
+                        证品牌。<br/>
+                        在全国过千家代理商中,<br/>
+                        思恩客是游戏行业唯一获得五星级凭证的广告代<br/>
+                        理公司。
+                    </p>
+                </div>
+            </li>
+			<li _src="url(images/2.jpg)" style="background:#f6f6f6 150px 102px no-repeat;">
+            	<div class="min_bd">
+                    <h2>百度核心代理商最佳互联网移动创新奖</h2>
+                    <p>
+                        百度与中国大学联合主办,<br/>
+                        意在励志代理商提高创新能力,<br/>
+                        是SEM领域最高含金量奖项
+                    </p>
+                </div>
+            </li>
+			<li _src="url(images/3.jpg)" style="background:#f6f6f6 150px 102px no-repeat;">
+            	<div class="min_bd">
+                    <h2>腾讯互娱最佳外部合作伙伴奖</h2>
+                    <p>
+                        腾讯互娱每年对近百家外部合作机构的综合评定，<br/>
+                        获奖单位拥有国内顶尖服务水平。
+                    </p>
+                </div>
+            </li>
+			<li _src="url(images/4.jpg)" style="background:#f6f6f6 150px 102px no-repeat;">
+            	<div class="min_bd">
+                    <h2>17173年度最佳媒体代理服务</h2>
+                    <p>
+                       中国游戏第一门户网站17173每年对近千家媒介代理合<br/>
+                       作机构的综合评定
+                    </p>
+                </div>
+            </li>
+            <li _src="url(images/5.jpg)" style="background:#f6f6f6 150px 102px no-repeat;">
+            	<div class="min_bd">
+                    <h2>中国4A协会金印奖</h2>
+                    <p>
+                       中国4A协会金印奖是中国广告创意的最高标准，<br/>
+                       中国广告业的创意风向标
+                    </p>
+                </div>
+            </li>
+		</ul>
+	</div>
+	<span class="prev"></span>
+	<span class="next"></span>
+</div>
+<!--轮播结束 end-->
+	<div class="wrap_nav">
+    	<div class="nav">
+        	<ul class="clearfix">
+            	<li><a href="#">关注SNK官方微信</a></li>
+                <li><a href="#">人才@蓝标</a></li>
+                <li><a href="#">蓝色光标集团官网</a></li>
+                <li><a href="#">SNK官方微博</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="wrap_footer">
+    	<div class="footer">
+            <p>
+            	Copy @ 2016 SNK All Rights Eeserved 京ICP备15012666号 京公网备案110105009223<a href="#">网站服务使用协议</a><a href="#">隐私政策</a>
+            </p>
+            <ul>
+            	<li><a href="../call/index.html"><h3>CONTACT</h3><p>联系我们</p></a></li>
+                <li><a href="#top"><h3>BACK TO TOP</h3><p>回到顶部</p></a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
+
+<script type="text/javascript">
+$(".fullSlide").hover(function(){
+    $(this).find(".prev,.next").stop(true, true).fadeTo("show", 0.5)
+},
+function(){
+    $(this).find(".prev,.next").fadeOut()
+});
+$(".fullSlide").slide({
+    titCell: ".hd ul",
+    mainCell: ".bd ul",
+    effect: "fold",
+    autoPlay: true,
+    autoPage: true,
+    trigger: "click",
+    startFun: function(i) {
+        var curLi = jQuery(".fullSlide .bd li").eq(i);
+        if ( !! curLi.attr("_src")) {
+            curLi.css("background-image", curLi.attr("_src")).removeAttr("_src")
+        }
+    }
+});
+
+	a_red.onclick=aa;
+	a_red2.onclick=bb;
+	a_red3.onclick=cc;
+	a_red4.onclick=dd;
+	function aa(){
+		a_red.style.color="red";
+		a_red.style.bordercolor="red";
+		a_red2.style.color="#fff";
+		a_red2.style.bordercolor="#fff";
+		a_red3.style.color="#fff";
+		a_red3.style.bordercolor="#fff";
+		}
+	function bb(){
+		a_red2.style.color="red";
+		a_red2.style.bordercolor="red";
+		a_red.style.color="#fff";
+		a_red.style.bordercolor="#fff";
+		a_red3.style.color="#fff";
+		a_red3.style.bordercolor="#fff";
+		}
+	function cc(){
+		a_red2.style.color="#fff";
+		a_red2.style.bordercolor="#fff";
+		a_red.style.color="#fff";
+		a_red.style.bordercolor="#fff";
+		a_red3.style.color="red";
+		a_red3.style.bordercolor="red";
+		}
+	function dd(){
+		a_red2.style.color="#fff";
+		a_red2.style.bordercolor="#fff";
+		a_red.style.color="#fff";
+		a_red.style.bordercolor="#fff";
+		a_red3.style.color="#fff";
+		a_red3.style.bordercolor="#fff";
+		}
+
+</script>

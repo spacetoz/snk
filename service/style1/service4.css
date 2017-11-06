@@ -1,0 +1,5 @@
+.bottom_nav{width: 1178px;padding-left:22px;margin: 0 auto 120px auto;border-top: 1px solid #dddddd;}
+.bottom_nav h2{height: 50px;line-height: 50px;}
+.bottom_nav ul li {cursor:pointer;float: left;width: 360px;margin-right: 40px;text-align: center;line-height: 45px;}
+.bottom_nav ul li a{color: #666666;}
+.bottom_nav ul li a:hover{color:red;}

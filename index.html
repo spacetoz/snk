@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>SNK</title>
+<script type="text/javascript" src="index/js/jquery.js"></script>
+<script type="text/javascript" src="index/js/superslide.2.1.js"></script>
+<link href="index/css/focus.css" rel="stylesheet" type="text/css"/>
+<link href="index/css/base.css" rel="stylesheet" type="text/css"/>
+<link href="index/css/index.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+	
+	<div class="wrap_topnav">
+        <div class="topnav">	
+            <ul class="clearfix">
+                <li><a href="index.html">首页</a>|</li>
+                <li><a href="service/index.html">客户服务</a>|</li>
+                <li><a href="case/index.html">案例分享</a>|</li>
+                <li><a href="about/index.html">关于我们</a>|</li>
+                <li><a href="call/index.html">联系我们</a>|</li>
+                <li><a href="#" id="a_1">中文</a><a href="#" id="a_2">EN</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="fullSlide">
+    	<a id="top"></a>
+        <div class="bd">
+            <ul>
+                <li _src="url(index/images/1.jpg)" style="background: center  0 no-repeat;"><a href="case/index.html"></a></li>
+                <li _src="url(index/images/2.jpg)" style="background: center  0 no-repeat;"><a href="service/index.html"></a></li>
+                <li _src="url(index/images/3.jpg)" style="background: center  0 no-repeat;"><a href="about/index.html"></a></li>
+                <li _src="url(index/images/4.jpg)" style="background: center  0 no-repeat;"><a href="call/index.html"></a></li>
+            </ul>
+        </div>
+        <div class="hd"><ul></ul></div>
+        <span class="prev"></span>
+        <span class="next"></span>
+    </div><!--fullSlide end-->
+    <div class="wrap_nav">
+    	<div class="nav">
+        	<ul class="clearfix">
+            	<li><a href="#">关注SNK官方微信</a></li>
+                <li><a href="#">人才@蓝标</a></li>
+                <li><a href="#">蓝色光标集团官网</a></li>
+                <li><a href="#">SNK官方微博</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="wrap_footer">
+    	<div class="footer">
+            <p>
+            	Copy @ 2016 SNK All Rights Eeserved 京ICP备15012666号 京公网备案110105009223<a href="#">网站服务使用协议</a><a href="#">隐私政策</a>
+            </p>
+            <ul>
+            	<li><a href="call/index.html"><h3>CONTACT</h3><p>联系我们</p></a></li>
+                <li><a href="#top"><h3>BACK TO TOP</h3><p>回到顶部</p></a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
+<script type="text/javascript">
+	a_1.onclick=red;
+	a_2.onclick=red2;
+	function red(){
+		a_1.style.color="red";
+		a_2.style.color="#666666";
+		}
+	function red2(){
+		a_1.style.color="#666666";
+		a_2.style.color="red";
+		}
+	$(".fullSlide").hover(function(){
+		$(this).find(".prev,.next").stop(true, true).fadeTo("show", 0.5)
+	},
+	function(){
+		$(this).find(".prev,.next").fadeOut()
+	});
+	$(".fullSlide").slide({
+		titCell: ".hd ul",
+		mainCell: ".bd ul",
+		effect: "fold",
+		autoPlay: true,
+		autoPage: true,
+		trigger: "click",
+		startFun: function(i) {
+			var curLi = jQuery(".fullSlide .bd li").eq(i);
+			if ( !! curLi.attr("_src")) {
+				curLi.css("background-image", curLi.attr("_src")).removeAttr("_src")
+			}
+		}
+	});
+</script>
+

@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+.wrap_topnav_box{width:100%;position:relative;height:102px;}
+.wrap_topnav{width:100%;border-top:10px solid #e90000;position:fixed;top:0;left:0;background:#fff;z-index:1000000001;margin:0 auto;}
+.topnav{width:1262px;background:url(../images/logo.png) no-repeat 30px center;position:relative;}
+.topnav ul{padding-left:433px;}
+.topnav ul li{float:left;width:148px;height:90px;font-size:16px;color:#ccdced;}
+.topnav ul li:nth-child(1){width:105px;}
+.topnav ul li:last-child{width:132px;}
+.topnav ul li a{display:inline-block;height:87px;line-height:87px;border-bottom:3px solid #fff;width:140px;text-align:center;color:#666666;}
+.topnav ul li a#a_1{color:red;}
+.topnav ul li:nth-child(1) a{width:95px;}
+.topnav ul li:last-child a{width:64px;}
+.topnav ul li a:hover{border-color: #e90000;color:red;}
+.topnav ul li:last-child a:hover{border-color:#fff;color:red;}
+.wrap_topnav .subnav{width:100%;position:absolute;left:0;top:90px;background:url(../images/about-navbg.png) repeat-x left top;}
+.wrap_topnav .subnav p{padding-right:52px;width:1210px;height:16px;padding-top:18px;padding-bottom:18px;line-height:16px;margin:0 auto;text-align:right;}
+.wrap_topnav .subnav p a{font-size:16px;color:#fff;display:inline-block;margin-left:34px;}
+.wrap_topnav .subnav p a:hover{color:#fff;border-bottom-style:solid;border-bottom-width:1px;}
+.banner {width:1263px;margin:0 auto;background:url(../images/about.jpg) no-repeat center top;height:200px;}
+.wrap_main{width:100%;background:#f6f6f6;}
+.main{width:1128px;margin: 0 auto;padding-top:10px;}
+.main .top .submain{background:#fcfcfc;width:526px;margin-right:72px;margin-bottom:40px;border:1px solid #dddddd;height:318px;float:left;}
+.main .top .submain:nth-child(2),.main .top .submain:nth-child(4),.main .top .submain:nth-child(6){margin-right:0;}
+.main h2{text-align:center;padding-top:23px;line-height:49px;height:50px;font-size:28px;}
+.main p:nth-child(2){height:30px;line-height:30px;text-align:center;font-size:14px;color:#999999;margin-bottom:20px;}
+.main p:nth-child(3){line-height:28px;color:#666666;font-size:16px;padding-left:25px;padding-right:120px;}
+.main .bottom{border:1px solid #dddddd;background:#fcfcfc;text-align:center;}
+.main .bottom p{height:110px;line-height:110px;font-size:20px;color:#333333;}
+.main .bottom p span{display:inline-block;color:#e90000;font-size:18px;padding-left:12px;}
+.footer{width:1260px;margin:0 auto;}
